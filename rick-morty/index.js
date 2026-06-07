@@ -28,7 +28,7 @@ async function fetchCharacters() {
 
     }catch (error) {
         console.error('Error fetching characters:', error);
-
+        return [];
     }
 }
 
